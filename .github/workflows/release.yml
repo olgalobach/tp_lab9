@@ -1,9 +1,9 @@
 name: Releases
 
 on: 
-  [push]:
+  push:
     tags:
-    - v1.0.2
+    - 'v1.0.2'
 
 jobs:
 
