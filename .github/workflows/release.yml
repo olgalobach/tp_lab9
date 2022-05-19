@@ -21,7 +21,7 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          artifacts: "banking/build/libbanking.a"
+          body_path: "banking/build/libbanking.a"
           body: |
             Changes in this Release
             - First Change
