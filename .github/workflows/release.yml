@@ -1,11 +1,9 @@
 name: Releases
 
-#on: 
- # push:
-  #  tags:
-   # - 'v1.0.1'
-    
-on: create
+on: 
+  push:
+    tags:
+    - 'v1.0.1'
 
 jobs:
 
